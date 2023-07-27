@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             public void onTick(long millisUntilFinished) {
             //Her bir saniyede ne olsun
                 //TextView'in değerini değiştir
-                textView.setText("Left : "+ millisUntilFinished /1000);
+                textView.setText("Left : "+ millisUntilFinished /1000+" .");
             }
 
             @Override
